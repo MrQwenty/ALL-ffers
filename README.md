@@ -1,38 +1,36 @@
 <h1 align="center">Freelance Offers Aggregator - ALL-ffers!</h1>
 
-**All-ffers** - агрегатор фриланс-заказов и предложений о удаленной работе с различных бирж фриланса.
+**ALL-ffers** is a freelance jobs aggregator from multiple freelance websites (aggregating several thousands offers) and a personal management system for user´s own freelance projects.
 
-**Возможности:**
-
-* Ищет для вас актуальные офферы, используя множество сайтов из нескольких стран.
-* Система персонального трекинга избранных/начатых/завершенных задач.
-* Графическая визуализация статистики пользователя.
-
-**Ключевые особенности:**
-
-* Все офферы и данные пользователей хранятся в облачной базе данных (MongoDB Atlas).
-* Внутренний API для клиент-серверных взаимодействий и CRUD-операций.
-* Фронтенд - SPA-приложение (React).
-* Используется внешний API для корректной конвертации курсов валют.
-
-**Технический стэк**
-* **React** / Redux
-* **node.js** / Express.js
-* **MongoDB** & MongoDB Atlas
-
-## Обзор
 ![all-ffers](https://user-images.githubusercontent.com/63851100/91732454-8a90cd00-eba8-11ea-824d-df68e9f8bbec.gif)
 
-## Запуск
-```js
-cd backend
-npm i
-npm start
+## Functionality:
+- Parsing/scraping of freelance IT offers from multiple websites in several countries.
+- Storing offer and user data in a cloud database (MongoDB Atlas).
+- Internal API for the client-server communication and all CRUD operations.
+- Frontend in form of a SPA (Single Page Application).
+- Personal management system for user´s own favourite, started and finished projects.
+- Graphical visualisation of user´s freelance projects statistics (Chart.js).
+- Various sorting, filtering and searching functionality.
+- Different display options for job offers (short, medium and expanded view).
+- Pagination.
+- Session based authorization and authentication (Passport.js).
+- Usage of an external API for current currency exchange rates.
 
-cd frontend
-npm i
-npm start
-```
-## Следующие шаги
-* Расширение базы данных
-* Разработка мобильного приложения
+
+## Technology Stack: 
+* React
+* Redux
+* ReactRouter
+* Redux-Thunk
+* Node.js
+* Express
+* MongoDB & MongoDB Atlas
+* Mongoose
+* REST API
+* Passport.js
+* Cheerio
+* Chart.js
+* HTML5
+* CSS3
+* Fixer.io API
